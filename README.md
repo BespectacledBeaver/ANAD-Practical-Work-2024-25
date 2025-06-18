@@ -2,19 +2,14 @@
 The practical work (TPs) done in the data mining course (ANAD, analyse et fouille de données) at ESI for the academic year 2024-25.
 ANAD Practical Work 2024/2025
 
----
-
 ## 📁 Contents
-
 This repository contains two main practical assignments for the Data Mining (ANAD) course:
 
-1. **TP1: Analyse Factorielle des Correspondances (AFC) & Analyse des Correspondances Multiples (ACM) (Multiple Correspondence Analysis, MCA, and Correspondence Analysis, CA)**
-2. **TP2: Analyse en Composantes Principales (ACP) (Principal Component Analysis, PCA)**
-
----
+1. **[TP1: Analyse Factorielle des Correspondances (AFC) & Analyse des Correspondances Multiples (ACM) (Multiple Correspondence Analysis, MCA, and Correspondence Analysis, CA)](#TP1)**
+2. **[TP2: Analyse en Composantes Principales (ACP) (Principal Component Analysis, PCA)](#TP2)**
 
 ## 📊 TP1 – Multiple Correspondence Analysis (MCA) and Correspondence Analysis (CA)
-
+<a name="TP1"></a>
 ### ✨ Objective
 Explore the associations between categorical survey data variables, particularly those related to opinions on Universal Basic Income (UBI), using MCA and CA.
 
@@ -34,7 +29,9 @@ Explore the associations between categorical survey data variables, particularly
 - **Eigenvalues**: 16 dimensions; 84.03% inertia captured by first 12.
 - **Axis 1 top contributors**: Age 14–25 (17,98%), no full-time job (13,39%), full-time job (8.71%), no children (8.23%), will not vote (8.11%).
 - **Axis 2 top contributors**: Better awareness of UBI (13,49%), more likely to vote for (10,93%), have children (10,3%).
+
 ![MCA factor Map](figures/tp1_mca_biplot.png)
+
 *Figure: MCA factor Map*
 
 #### 📌 CA (AFC)
@@ -43,6 +40,7 @@ Explore the associations between categorical survey data variables, particularly
 - **Interpretation**: Higher education correlates with higher UBI awareness.
 
 ![CA Factor Map](figures/tp1_ca_biplot.png)
+
 *Figure: CA Factor Map*
 
 ### 🧠 Interpretation
@@ -50,11 +48,8 @@ Explore the associations between categorical survey data variables, particularly
 - Rural individuals or those with less education tend to oppose or are unaware.
 - Employment status and family situation strongly influence opinion.
 
----
-
-
 ## 📈 TP2 – Principal Component Analysis (PCA)
-
+<a name="TP2"></a>
 ### ✨ Objective
 Use PCA to explore student performance data and its relationship to specialty assignments after the first-year curriculum (1CS).
 
@@ -91,8 +86,6 @@ Use PCA to explore student performance data and its relationship to specialty as
 
 - R (>= 4.0)
 - R packages: `FactoMineR`, `factoextra`, `Hmisc`, `mlbench`
-
----
 
 ## 📜 License
 
