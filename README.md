@@ -8,8 +8,9 @@ This repository contains two main practical assignments for the Data Mining (ANA
 1. **[TP1: Analyse Factorielle des Correspondances (AFC) & Analyse des Correspondances Multiples (ACM) (Multiple Correspondence Analysis, MCA, and Correspondence Analysis, CA)](#TP1)**
 2. **[TP2: Analyse en Composantes Principales (ACP) (Principal Component Analysis, PCA)](#TP2)**
 
-## 📊 TP1 – Multiple Correspondence Analysis (MCA) and Correspondence Analysis (CA)
 <a name="TP1"></a>
+## 📊 TP1 – Multiple Correspondence Analysis (MCA) and Correspondence Analysis (CA)
+
 ### ✨ Objective
 Explore the associations between categorical survey data variables, particularly those related to opinions on Universal Basic Income (UBI), using MCA and CA.
 
@@ -48,8 +49,9 @@ Explore the associations between categorical survey data variables, particularly
 - Rural individuals or those with less education tend to oppose or are unaware.
 - Employment status and family situation strongly influence opinion.
 
-## 📈 TP2 – Principal Component Analysis (PCA)
 <a name="TP2"></a>
+## 📈 TP2 – Principal Component Analysis (PCA)
+
 ### ✨ Objective
 Use PCA to explore student performance data and its relationship to specialty assignments after the first-year curriculum (1CS).
 
